@@ -52,6 +52,7 @@ NSDateFormatter *logDateFormatter = nil;
     if (p!=NSNotFound && (p==0 || [message characterAtIndex:p-1]==' ')) return YES;
     p = [message rangeOfString:@"MTEMP:"].location;
     if (p!=NSNotFound && (p==0 || [message characterAtIndex:p-1]==' ')) return YES;
+    if ([message rangeOfString:@"Echo:M105"].location!=NSNotFound) return YES;
     if ([message rangeOfString:@"SD printing byte"].location!=NSNotFound) return YES;
     if ([message rangeOfString:@"Not SD printing"].location!=NSNotFound) return YES;
     if ([message rangeOfString:@"SpeedMultiply:"].location!=NSNotFound) return YES;

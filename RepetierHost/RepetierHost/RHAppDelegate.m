@@ -461,11 +461,11 @@
 }
 
 - (IBAction)ShowHomepage:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.repetier.com"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.repetier.com"]];
 }
 
 - (IBAction)ShowManual:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.repetier.com/documentation/repetier-host-mac/"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.repetier.com/documentation/repetier-host-mac/"]];
 }
 
 - (IBAction)ShowForum:(id)sender {
@@ -477,7 +477,7 @@
 }
 
 - (IBAction)ShowSkeinforgeHomepage:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://fabmetheus.crsndoo.com"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://fabmetheus.crsndoo.com"]];
 }
 
 - (IBAction)showWorkdir:(id)sender {

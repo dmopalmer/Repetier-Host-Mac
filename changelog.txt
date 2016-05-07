@@ -1,3 +1,13 @@
+Version 0.57dmp 2016-05-07
+  Original is no longer open source.  This is a fork.
+  Changing http: to https: where supported, and added exceptions where not
+  Treat Echo:M105 (temp request echo) as ACK for display purposes
+  Todo:
+    Prevent sleep while printing
+    drag-and-drop STL files onto object placement window
+    Add extrapolation to base estimated completion on time taken so far
+    GCode history menu
+
 Version 0.56 2013-04-24
   Fixed multiple filament visualization bug.
   Fixed possible memory leaks.

@@ -145,7 +145,7 @@
     return (item == nil) ? @"Repetier-Host" : ((PrefTab*)item)->name;
 }
 - (IBAction)openSkeinforgeHomepage:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://fabmetheus.crsndoo.com"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://fabmetheus.crsndoo.com"]];
 }
 
 - (IBAction)openSlic3rHomepage:(id)sender {
